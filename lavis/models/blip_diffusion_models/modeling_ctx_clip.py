@@ -10,11 +10,9 @@ import torch
 from torch import nn
 from transformers.modeling_outputs import BaseModelOutputWithPooling
 from transformers.models.clip.configuration_clip import CLIPTextConfig
-from transformers.models.clip.modeling_clip import (
-    CLIPEncoder,
-    CLIPPreTrainedModel,
-    _expand_mask,
-)
+from transformers.models.clip.modeling_clip import (CLIPEncoder,
+                                                    CLIPPreTrainedModel,
+                                                    _expand_mask)
 
 
 class CtxCLIPTextModel(CLIPPreTrainedModel):

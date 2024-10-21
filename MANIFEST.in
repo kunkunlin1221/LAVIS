@@ -3,6 +3,7 @@ recursive-include lavis/projects *.yaml *.json
 
 recursive-exclude lavis/datasets/download_scripts *
 recursive-exclude lavis/output *
+recursive-exclude lavis/tests *
 
 include requirements.txt
 include lavis/models/clip_models/bpe_simple_vocab_16e6.txt.gz
